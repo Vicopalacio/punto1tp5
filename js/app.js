@@ -16,4 +16,13 @@ function adivinarNumero(e){
     // console.log("desde la funcion adivinar numero");
     let numeroIngresado = document.querySelector("input").value;
     console.log(numeroIngresado);
+    if(numeroIngresado = numeroMagico){
+        alert("ganaste")
+    }
+    if(numeroIngresado > numeroMagico){
+        alert("mm.. casi")
+    }
+    if(numeroIngresado < numeroMagico){
+        alert("mm.. sigue intentando")
+    }
 }
